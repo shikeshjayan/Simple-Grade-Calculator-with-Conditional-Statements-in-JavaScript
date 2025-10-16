@@ -1,10 +1,10 @@
 // Simple Grade Calculator with Conditional Statements
 // Input from User
-let subjectEnglish = Number(prompt("Enter Mark of English: "));
-let subjectMaths = Number(prompt("Enter Mark of Mathemathics: "));
-let subjectPhysics = Number(prompt("Enter Mark of Physics: "));
-let subjectChemistry = Number(prompt("Enter Mark of Chemistry: "));
-let subjectBiology = Number(prompt("Enter Mark of Biology: "));
+let subjectEnglish = parseInt(prompt("Enter Mark of English: "));
+let subjectMaths = parseInt(prompt("Enter Mark of Mathemathics: "));
+let subjectPhysics = parseInt(prompt("Enter Mark of Physics: "));
+let subjectChemistry = parseInt(prompt("Enter Mark of Chemistry: "));
+let subjectBiology = parseInt(prompt("Enter Mark of Biology: "));
 // Display Subjects and It's Marks
 // console.log(
 //   `Your Marks are: English : ${subjectEnglish}, Maths : ${subjectMaths}, Physics : ${subjectPhysics}, Chemistry : ${subjectChemistry}, Biology : ${subjectBiology}`
